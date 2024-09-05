@@ -879,7 +879,7 @@
 		}
 
 		// MailChimp Ajax subscription
-		if (plugins.mailchimp.length) {
+		/*if (plugins.mailchimp.length) {
 			for (let i = 0; i < plugins.mailchimp.length; i++) {
 				let $mailchimpItem = $(plugins.mailchimp[i]),
 					$email = $mailchimpItem.find('input[type="email"]');
@@ -967,9 +967,9 @@
 				}, $mailchimpItem, $email));
 			}
 		}
-
+*/
 		// Campaign Monitor ajax subscription
-		if (plugins.campaignMonitor.length) {
+/*		if (plugins.campaignMonitor.length) {
 			for (let i = 0; i < plugins.campaignMonitor.length; i++) {
 				let $campaignItem = $(plugins.campaignMonitor[i]);
 
@@ -1023,9 +1023,9 @@
 				}, $campaignItem));
 			}
 		}
-
+*/
 		// RD Mailform
-		if (plugins.rdMailForm.length) {
+/*		if (plugins.rdMailForm.length) {
 			let i, j, k,
 				msg = {
 					'MF000': 'Successfully sent!',
@@ -1174,7 +1174,7 @@
 				});
 			}
 		}
-
+*/
 		// lightGallery
 		if (plugins.lightGallery.length) {
 			for (let i = 0; i < plugins.lightGallery.length; i++) {
