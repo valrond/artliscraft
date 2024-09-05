@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>503</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css2?family=Oswald:wght@500&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400&amp;display=swap">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="preloader-wrapper">
+          <div class="preloader-circle"></div>
+          <div class="preloader-circle"></div>
+          <div class="preloader-circle"></div>
+          <div class="preloader-shadow"></div>
+          <div class="preloader-shadow"></div>
+          <div class="preloader-shadow"></div>
+          <div class="preloader-text">Loading</div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <!-- 404-->
+      <section class="section section-fullheight bg-mask bg-image text-center" style="background-image:url(images/back/7.jpg)">
+        <div class="section-fullheight-inner section-sm justify-content-between">
+          <div class="container">
+            <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo/logo_artliscraft_42.png" alt="" width="88" height="49"/><img class="brand-logo-light" src="images/logo/logo_artliscraft_42.png" alt="" width="88" height="49"/></a>
+          </div>
+          <div class="section-sm">
+            <div class="container">
+              <div class="row justify-content-center text-center">
+                <div class="col-xl-11">
+                  <h1 class="text-large">503</h1>
+                  <h4><b>Supernova Surge!</b></h4>
+                  <p class="d-inline-block" style="max-width:630px; color:black"><b>Yikes! Our systems seem to be experiencing a supernova. The galaxy is in chaos, and the page you are looking for is temporarily unavailable. But don't worry, our team of star engineers is working at light speed to restore order. We apologize for the cosmic inconvenience. Refresh the page or check back soon. Meanwhile, why not gaze at the stars and contemplate the mysteries of the universe? Keep your curiosity alive, and thank you for your patience.</b></p>
+                  <div class="btn-group-1"><a class="btn btn-primary" href="index.html">Go to Home</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>LARTLIS © ARTLISCRAFT</span></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Modal appointment-->
+    <div class="modal modal-book fade text-start" id="appointment" role="dialog">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Get tickets</h4>
+            <button class="btn-close" type="button" data-bs-dismiss="modal"><span class="icon mdi mdi-close"></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="order" method="post" action="bat/rd-mailform.php">
+              <div class="row row-15 row-lg-30 align-items-center">
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <label class="form-label" for="modal-name">First Name...</label>
+                    <input class="form-input" id="modal-name" type="text" name="first-name" data-constraints="@Required">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <label class="form-label" for="modal-address">Email address...</label>
+                    <input class="form-input" id="modal-address" type="email" name="email" data-constraints="@Email @Required">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <label class="form-label" for="modal-date">Date...</label>
+                    <input class="form-input" id="modal-date" type="text" name="date" data-time-picker="date" data-constraints="@Required">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-wrap">
+                    <label class="form-label" for="modal-time">Time...</label>
+                    <input class="form-input" id="modal-time" type="text" name="time" data-time-picker="time" data-constraints="@Required">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-wrap">
+                    <label class="form-label" for="modal-message">Message...</label>
+                    <textarea class="form-input" id="modal-message" name="message"></textarea>
+                  </div>
+                </div>
+                <div class="col-12 mt-1 mt-lg-3">
+                  <div class="btn-group-1 text-start">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                    <button class="btn btn-default-outline" type="button" data-dismiss="modal">Cancel</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
